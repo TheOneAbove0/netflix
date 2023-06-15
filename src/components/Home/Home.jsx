@@ -7,8 +7,21 @@ export default function Home() {
         <div className='  flex justify-between  py-10 items-center text-white text-[24px] mx-9 '>
             <img className=' w-[185px] '  src={logo} alt="netflix-logo" />
             <div className=' flex gap-10 '>
-                <div className=' border-white px-2 border-[1px] rounded-sm  '>English</div>
-                <span className=' text-white bg-red-500 px-2 rounded-[4px] '>Sign in</span>
+                <div className=' border-white cursor-pointer px-2 border-[1px] rounded-sm  '>English</div>
+                <span className=' text-white cursor-pointer bg-red-500 px-2 rounded-[4px] '>Sign in</span>
+            </div>
+        </div>
+
+        <div className=' flex flex-col items-center mt-28 text-white '>
+            <h1 className=' text-[54px] font-bold  text-center '>Unlimited movies, TV shows, and more..</h1>
+            <p className=' text-[24px] font-semibold mb-5  text-center '>Plans now start at USD2.99/month.</p>
+            <p className=' text-[20px] font-semibold   '>
+
+            Ready to watch? Enter your email to create or restart your membership.
+            </p>
+            <div className=' flex mt-12 gap-4  '>
+                <input placeholder='Email address' className=' border px-4 rounded-sm bg-black bg-opacity-70 w-[400px]   ' type="text" />
+                <span className=' text-white bg-red-600 py-4 px-8  rounded-sm '>Get Started ></span>
             </div>
         </div>
 
