@@ -1,14 +1,17 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/1.png";
 export default function Home() {
   return (
     <div className=" object-cover  min-h-[690px] bg-[url('https://cdn.arstechnica.net/wp-content/uploads/2022/07/netflix.jpg')]">
       <div className="  bg-black min-h-[690px] bg-opacity-70">
         <div className="  flex justify-between  py-5 items-center text-white text-[24px] mx-32 ">
-          <img className=" w-[185px] " src={logo} alt="netflix-logo" />
+          <Link to="/">
+            <img className=" w-[185px] " src={logo} alt="netflix-logo" />
+          </Link>
+
           <div className=" flex gap-10 items-center justify-center ">
-            
             <span className=" text-white  cursor-pointer text-[16px] bg-red-600 hover:bg-red-700 px-3 py-1 rounded-[4px] ">
-              Sign in
+              <Link to="/signin">Sign in</Link>
             </span>
           </div>
         </div>
@@ -31,7 +34,7 @@ export default function Home() {
               type="text"
             />
             <span className=" text-white font-bold text-[18px] cursor-pointer bg-red-600 hover:bg-red-700 py-4 px-10  rounded-[5px] ">
-              Get Started 
+              Get Started
             </span>
           </div>
         </div>

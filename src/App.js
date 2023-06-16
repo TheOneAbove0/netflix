@@ -1,16 +1,26 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Footer from './components/Footer/Footer';
-import FAQ from './components/Home/FAQ';
-import Home from './components/Home/Home';
-import Tv from './components/Home/Tv';
+import Main from './components/Home/Main';
+
+import Signin from './components/Home/Signin';
+
 
 function App() {
   return (
     <div className=" container mx-auto ">
-     <Home />
-     <Tv />
-     <FAQ />
-     <Footer />
+
+<BrowserRouter>
+      <Routes>
+        <Route path="/" >
+          <Route index element={<Main />} />
+          <Route path="signin" element={<Signin />} />
+          
+        </Route>
+      </Routes>
+    </BrowserRouter>
+      
+     
+     
     </div>
   );
 }
