@@ -2,7 +2,7 @@ import logo from "../../assets/1.png";
 export default function Home() {
   return (
     <div className=" object-cover  min-h-[690px] bg-[url('https://cdn.arstechnica.net/wp-content/uploads/2022/07/netflix.jpg')]">
-      <div className="bg-black min-h-[690px]  bg-opacity-70">
+      <div className="  bg-black min-h-[690px] bg-opacity-70">
         <div className="  flex justify-between  py-5 items-center text-white text-[24px] mx-32 ">
           <img className=" w-[185px] " src={logo} alt="netflix-logo" />
           <div className=" flex gap-10 items-center justify-center ">
