@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import Tv1 from "../../assets/tv.png";
 import Tv2 from "../../assets/tv-video.m4v";
 import Mobile from "../../assets/mobile.gif";
-import { AiOutlineDownload } from "react-icons/ai";
+// import { AiOutlineDownload } from "react-icons/ai";
 import child from "../../assets/children.png";
 
 export default function Tv() {
