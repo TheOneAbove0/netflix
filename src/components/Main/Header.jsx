@@ -12,7 +12,7 @@ export default function Header() {
       <div className=" flex items-center gap-6  "> 
         <img className=" h-8  " src={logo} alt="netflix" />
 
-        <div className=" flex list-none gap-4  ">
+        <div className=" flex list-none gap-4 ">
             <li>Home</li>
             <li>TV Shows</li>
             <li>Movies</li>

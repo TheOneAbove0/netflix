@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+
 
 export default function Body() {
   return (
-    <div ></div>
+    <div className='  ' >
+     
+    </div>
   )
 }
