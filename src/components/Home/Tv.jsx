@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Tv1 from "../../assets/tv.png";
 import Tv2 from "../../assets/tv-video.m4v";
 import Mobile from "../../assets/mobile.gif";
@@ -17,9 +17,14 @@ export default function Tv() {
               Blu-ray players, and more.
             </p>
           </div>
+          <img src="" alt=""></img>
 
           <img className=" w-[550px] z-20 h-[400px] " src={Tv1} alt="Tv" />
-          <video className=" absolute w-[390px] h-[310px]  right-[250px] "  autoPlay loop >
+          <video
+            className=" absolute w-[390px] h-[310px]  right-[250px] "
+            autoPlay
+            loop
+          >
             <source src={Tv2} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -61,6 +66,8 @@ export default function Tv() {
             src={child}
             alt="Tv"
           />
+
+          <p className=" absolute text-white left-[300px] ">manish</p>
 
           <div className=" text-white  ">
             <span className=" text-[48px] font-bold ">
