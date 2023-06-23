@@ -16,8 +16,14 @@ export default function Body() {
       <h1 className=" text-[60px] font-normal ">Spider-Man: Across... </h1>
       <p className=" text-[24px] w-[550px] mt-6 ">After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he</p>
       <div>
+      <div>
         <span>Play</span>
       </div>
+      <div>
+        <span>More Info</span>
+      </div>
+      </div>
+      
       </div>
       <div className="absolute top-[550px] ">
         <div className="flex flex-col">
