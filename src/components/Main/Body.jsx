@@ -5,6 +5,9 @@ import SS from "../../assets/ss.mp4";
 // import { FaRegThumbsUp } from "react-icons/fa";
 // import { BsChevronDown } from "react-icons/bs";
 
+import { BsFillPlayFill } from "react-icons/bs";
+import { AiOutlineInfoCircle } from "react-icons/ai"
+
 export default function Body() {
   return (
     <div className=" relative">
@@ -15,12 +18,16 @@ export default function Body() {
       <div className=" absolute text-white mx-[40px]  top-40"> 
       <h1 className=" text-[60px] font-normal ">Spider-Man: Across... </h1>
       <p className=" text-[24px] w-[550px] mt-6 ">After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he</p>
-      <div>
-      <div>
-        <span>Play</span>
+
+
+      <div className=" text-white gap-3 flex mt-8 items-center">
+      <div className="py-2 bg-white text-black items-center text-[28px]    px-6 rounded-md flex  ">
+        <BsFillPlayFill />
+        <span className="  font-bold ">Play</span>
       </div>
-      <div>
-        <span>More Info</span>
+      <div className=" py-2 items-center text-[28px] bg-gray-600 rounded-md px-6 flex  ">
+        <AiOutlineInfoCircle />
+        <span className="  font-bold ">More Info</span>
       </div>
       </div>
       
